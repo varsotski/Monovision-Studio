@@ -55,6 +55,7 @@ img {
 
 html {
   font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -115,6 +116,10 @@ html {
   padding: 3px 10px;
   cursor: pointer;
   transition: all 0.3s ease-out;
+  a {
+    text-decoration: none;
+    color: var(--light-color);
+  }
   @media screen and (max-width: 576px) {
     font-size: 14px;
     width: 120px;
